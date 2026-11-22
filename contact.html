@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Contact St. Martha Hospital | Kiminini, Trans Nzoia</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Contact St. Martha Hospital in Kiminini, Trans Nzoia. Call +254 731 948 998, email us, find us on the map, follow us online or book an appointment.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#FFFFFF">
+<!-- CANONICAL: add <link rel="canonical" href="https://YOUR-OFFICIAL-DOMAIN/contact.html"> once the official domain is confirmed. -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="St. Martha Hospital">
+<meta property="og:title" content="Contact St. Martha Hospital | Kiminini, Trans Nzoia">
+<meta property="og:description" content="Call, email or visit St. Martha Hospital in Kiminini, or book an appointment online.">
+<meta property="og:locale" content="en_KE">
+<link rel="shortcut icon" href="img/kli.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+<style>
+:root{
+  --navy:#0B1E3D; --navy-2:#132B52; --teal:#13C5DD; --teal-dark:#0EA8BF;
+  --mist:#E9EEF0; --paper:#F8F7F3; --ink:#1B2A3D; --muted:#5C6B7D; --white:#fff;
+  --head:'DM Sans',system-ui,sans-serif; --body:'Inter',system-ui,sans-serif;
+  --gutter:clamp(20px,4vw,48px); --r:6px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);color:var(--ink);background:var(--white);line-height:1.6;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--teal);outline-offset:3px}
+h1,h2,h3{font-family:var(--head);font-weight:400;letter-spacing:-.04em;line-height:1.05}
+.wrap{padding-inline:var(--gutter);max-width:1360px;margin-inline:auto}
+
+/* Navigation (shared with index.html) */
+.nav{position:fixed;inset:0 0 auto 0;z-index:50;display:flex;align-items:center;justify-content:space-between;
+  padding:12px var(--gutter);background:#FFFFFF;color:var(--navy);transition:box-shadow .3s}
+.nav.solid{box-shadow:0 6px 24px rgba(11,30,61,.08)}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+.brand img{height:122px;width:auto;max-width:none;background:none;border:0;border-radius:0;padding:0}
+.links{display:flex;align-items:center;gap:clamp(18px,2.6vw,40px);font:500 17px var(--head)}
+.links a{color:var(--navy);text-decoration:none;text-underline-offset:6px;transition:color .2s}
+.links a:hover{color:var(--teal-dark)}
+.links a[aria-current]{text-decoration:underline;text-decoration-thickness:2px}
+.links .book{background:var(--teal);color:var(--navy);padding:10px 20px;border-radius:var(--r);letter-spacing:-.02em;text-decoration:none}
+.links .book:hover{background:var(--teal-dark);color:var(--navy)}
+.menu-btn{display:none;background:none;border:0;color:inherit;font:500 17px var(--head);cursor:pointer;padding:8px}
+
+/* Contact intro and details */
+.contact{padding-top:clamp(150px,18vw,220px);padding-bottom:clamp(64px,9vw,120px)}
+.contact-grid{display:grid;grid-template-columns:5fr 6fr;gap:clamp(40px,8vw,128px);align-items:start}
+.contact h1{font-size:clamp(2.6rem,6vw,5.4rem);max-width:10ch}
+.contact .lead{margin-top:28px;font-size:18px;color:var(--muted);max-width:40ch}
+.btn{display:inline-flex;align-items:center;justify-content:space-between;gap:36px;min-width:260px;margin-top:40px;padding:18px 24px;
+  background:var(--teal);color:var(--navy);border-radius:var(--r);text-decoration:none;font:500 19px var(--head);letter-spacing:-.02em;transition:background .2s}
+.btn:hover{background:var(--navy);color:var(--white)}
+.btn svg{width:18px;height:18px;transition:transform .25s}
+.btn:hover svg{transform:translate(2px,-2px)}
+
+.details{display:grid;gap:clamp(28px,4vw,44px)}
+.label{display:block;margin-bottom:8px;font:500 14px var(--body);letter-spacing:.02em;color:var(--muted)}
+.value{font:400 clamp(1.4rem,2.6vw,2.2rem)/1.25 var(--head);letter-spacing:-.03em;color:var(--navy)}
+.value a{text-decoration:none;overflow-wrap:anywhere;transition:color .2s}
+.value a:hover{color:var(--teal-dark);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:6px}
+.value p+p{margin-top:6px}
+.note{margin-top:6px;font-size:15px;color:var(--muted)}
+
+.social{display:flex;gap:12px;margin-top:4px}
+.social a{width:52px;height:52px;display:inline-flex;align-items:center;justify-content:center;
+  border:1px solid var(--navy);border-radius:var(--r);color:var(--navy);text-decoration:none;font-size:20px;transition:background .2s,color .2s,border-color .2s}
+.social a:hover,.social a:focus-visible{background:var(--teal);border-color:var(--teal);color:var(--navy)}
+
+/* Map */
+.find{background:var(--paper);padding-block:clamp(64px,9vw,120px)}
+.find-grid{display:grid;grid-template-columns:5fr 7fr;gap:clamp(40px,8vw,128px);align-items:center}
+.find h2{font-size:clamp(2rem,4.2vw,3.4rem);max-width:12ch}
+.find address{margin-top:24px;font-style:normal;font-size:17px;color:var(--muted)}
+.find address p+p{margin-top:2px}
+.dir{display:inline-block;margin-top:24px;font:500 17px var(--head);letter-spacing:-.02em;color:var(--navy);text-underline-offset:6px;transition:color .2s}
+.dir:hover{color:var(--teal-dark)}
+.map{width:100%;aspect-ratio:4/3;max-height:560px;background:var(--mist);border-radius:var(--r);overflow:hidden}
+.map iframe{display:block;width:100%;height:100%;border:0}
+
+/* Footer (shared with index.html) */
+footer{background:var(--navy);color:rgba(255,255,255,.72);padding-top:clamp(56px,8vw,96px);font-size:15px}
+.foot{display:grid;grid-template-columns:repeat(4,1fr);gap:40px}
+footer h3{font:500 18px var(--head);letter-spacing:-.02em;color:var(--white);margin-bottom:16px}
+footer ul{list-style:none} footer li{margin-bottom:8px}
+footer a{text-decoration:none} footer a:hover{color:var(--teal)}
+footer address{font-style:normal;line-height:1.8}
+.legal{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;margin-top:64px;padding-block:24px 32px;font-size:14px;color:rgba(255,255,255,.5)}
+
+/* Responsive */
+@media (max-width:1024px){
+  .foot{grid-template-columns:1fr 1fr}
+}
+@media (max-width:900px){
+  .contact-grid,.find-grid{grid-template-columns:1fr}
+  .contact h1{max-width:none}
+  .find h2{max-width:none}
+}
+@media (max-width:760px){
+  .brand img{height:68px}
+  .menu-btn{display:block}
+  .links{position:fixed;inset:0;background:#FFFFFF;flex-direction:column;justify-content:center;gap:28px;font-size:28px;display:none}
+  .links.open{display:flex}
+  .links .book{padding:12px 24px}
+  .menu-btn{position:relative;z-index:60}
+  .contact{padding-top:120px}
+  .foot{grid-template-columns:1fr}
+  .btn{width:100%}
+  .map{aspect-ratio:1/1}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <a href="index.html" class="brand">
+    <img src="img/logo4.png" alt="St. Martha Hospital logo" decoding="async">
+  </a>
+  <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="links">Menu</button>
+  <nav class="links" id="links" aria-label="Main">
+    <a href="about.html">About</a>
+    <a href="service.html">Services</a>
+    <a href="programs.html">Programs</a>
+    <a href="blog.html">Blog</a>
+    <a href="appointment.html" class="book">Book Now</a>
+  </nav>
+</header>
+
+<main>
+  <section class="contact" aria-labelledby="contact-title">
+    <div class="wrap contact-grid">
+      <div>
+        <h1 id="contact-title">Get in touch</h1>
+        <p class="lead">Call, email or visit us in Kiminini. If you would like to see a doctor, you can book an appointment online.</p>
+        <a href="appointment.html" class="btn"><span>Book Now</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+        </a>
+      </div>
+
+      <div class="details">
+        <div>
+          <span class="label">Call us</span>
+          <div class="value"><a href="tel:+254731948998">+254 731 948 998</a></div>
+          <p class="note">Emergency line, 24/7</p>
+        </div>
+
+        <div>
+          <span class="label">Email us</span>
+          <div class="value">
+            <p><a href="mailto:stmarthasmedicare@gmail.com">stmarthasmedicare@gmail.com</a></p>
+            <p><a href="mailto:stmarthakinganatiba@gmail.com">stmarthakinganatiba@gmail.com</a></p>
+          </div>
+        </div>
+
+        <div>
+          <span class="label">Visit us</span>
+          <address class="value" style="font-style:normal">
+            <p>Kiminini, Trans Nzoia, Kenya</p>
+            <p>P.O. BOX 965 Kitale</p>
+          </address>
+        </div>
+
+        <div>
+          <span class="label" id="social-label">Follow us on social media</span>
+          <div class="social" role="group" aria-labelledby="social-label">
+            <a href="https://www.facebook.com/stmarthaknt/" target="_blank" rel="noopener" aria-label="St. Martha Hospital on Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/st.marthahealthcareknt/" target="_blank" rel="noopener" aria-label="St. Martha Hospital on Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://youtube.com/@stmarthaknt?si=yd3JQ_eJIdtj_wxj" target="_blank" rel="noopener" aria-label="St. Martha Hospital on YouTube"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/company/st-martha-hospital-kiminini" target="_blank" rel="noopener" aria-label="St. Martha Hospital on LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="find" aria-labelledby="find-title">
+    <div class="wrap find-grid">
+      <div>
+        <h2 id="find-title">Find us in Kiminini</h2>
+        <address>
+          <p>Kiminini, Trans Nzoia, Kenya</p>
+          <p>P.O. BOX 965 Kitale</p>
+        </address>
+        <a class="dir" href="https://maps.google.com/?q=St.+Martha+Kinga+na+Tiba+Healthcare+Services" target="_blank" rel="noopener">Get directions</a>
+      </div>
+      <div class="map">
+        <iframe
+          title="Map showing the location of St. Martha Hospital in Kiminini"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2919.2891467307645!2d34.945176208780396!3d0.8789422991088467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x17818d00382e597f%3A0xdde39f120163c7b9!2sSt.%20Martha%20Kinga%20na%20Tiba%20Healthcare%20Services!5e1!3m2!1sen!2ske!4v1758797475063!5m2!1sen!2ske"
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <h3>Get in touch</h3>
+        <address>
+          <p>P.O. BOX 965 Kitale</p>
+          <p>Kiminini, Trans Nzoia</p>
+          <p><a href="mailto:stmarthasmedicare@gmail.com">stmarthasmedicare@gmail.com</a></p>
+          <p><a href="mailto:stmarthakinganatiba@gmail.com">stmarthakinganatiba@gmail.com</a></p>
+          <p><a href="tel:+254731948998">+254 731 948 998</a></p>
+        </address>
+      </div>
+      <div>
+        <h3>Quick links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li><li><a href="about.html">About us</a></li>
+          <li><a href="service.html">Our services</a></li><li><a href="blog.html">Blog</a></li><li><a href="contact.html">Contact us</a></li>
+          <li><a href="faq.html">FAQs</a></li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="terms.html">Terms of Use</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Services</h3>
+        <ul>
+          <li><a href="service.html">General medicine</a></li><li><a href="service.html">Pediatrics</a></li>
+          <li><a href="service.html">Maternal health</a></li><li><a href="service.html">Laboratory</a></li>
+          <li><a href="service.html">Emergency care</a></li><li><a href="service.html">Pharmacy</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Appointments</h3>
+        <ul>
+          <li><a href="appointment.html">Book an appointment</a></li>
+          <li><a href="programs.html">Programs</a></li>
+        </ul>
+        <div class="social" style="display:flex; align-items:center; gap:16px; margin-top:14px;">
+          <a href="https://www.facebook.com/stmarthaknt/" target="_blank" rel="noopener noreferrer" aria-label="Facebook" title="Facebook">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 21v-8h2.7l.4-3.1h-3.1V8c0-.9.3-1.5 1.6-1.5h1.6V3.7c-.3 0-1.3-.1-2.4-.1-2.4 0-4.1 1.5-4.1 4.2v2.1H7.5V13h2.7v8h3.3z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/company/st-martha-hospital-kiminini" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M5.2 3.5a1.9 1.9 0 1 0 0 3.8 1.9 1.9 0 0 0 0-3.8zM3.6 9h3.2v11H3.6zM9 9h3.1v1.5h.1A3.4 3.4 0 0 1 15.3 8c3.3 0 3.9 2.2 3.9 5v7h-3.3v-6.2c0-1.5 0-3.3-2-3.3s-2.3 1.6-2.3 3.2V20H9z"/></svg>
+          </a>
+          <a href="https://youtube.com/@stmarthaknt?si=yd3JQ_eJIdtj_wxj" target="_blank" rel="noopener noreferrer" aria-label="YouTube" title="YouTube">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4l6.2 3.6z"/></svg>
+          </a>
+          <a href="https://www.instagram.com/st.marthahealthcareknt/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="legal">
+      <span>&copy; 2025 St. Martha Hospital. All rights reserved.</span>
+      <span>Kinga na Tiba — Kiminini, Trans Nzoia</span>
+      <a href="#">Back to top</a>
+    </div>
+  </div>
+</footer>
+
+
+<script>
+/* Nav: solid after scroll, mobile menu */
+const nav = document.getElementById('nav'), links = document.getElementById('links'), menuBtn = document.getElementById('menuBtn');
+const onScroll = () => nav.classList.toggle('solid', scrollY > 40);
+addEventListener('scroll', onScroll, {passive:true}); onScroll();
+function setMenu(open){ links.classList.toggle('open', open); menuBtn.setAttribute('aria-expanded', open); menuBtn.textContent = open ? 'Close' : 'Menu'; }
+menuBtn.addEventListener('click', () => setMenu(!links.classList.contains('open')));
+links.addEventListener('click', e => { if (e.target.closest('a')) setMenu(false); });
+addEventListener('keydown', e => { if (e.key === 'Escape') setMenu(false); });
+</script>
+</body>
+</html>

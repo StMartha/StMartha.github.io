@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>FAQs | St. Martha Hospital Kiminini</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Answers to common questions about St. Martha Hospital in Kiminini, Trans Nzoia: operating hours, appointments, what to bring, SHA insurance, urgent care, careers and locum opportunities.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#FFFFFF">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="St. Martha Hospital">
+<meta property="og:title" content="FAQs | St. Martha Hospital Kiminini">
+<meta property="og:description" content="Common questions about visiting St. Martha Hospital: hours, appointments, insurance, urgent care and careers.">
+<meta property="og:locale" content="en_KE">
+<!-- CANONICAL / og:url: add once the official domain is confirmed. -->
+<link rel="shortcut icon" href="img/kli.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#0B1E3D; --navy-2:#132B52; --teal:#13C5DD; --teal-dark:#0EA8BF;
+  --mist:#E9EEF0; --paper:#F8F7F3; --ink:#1B2A3D; --muted:#5C6B7D; --white:#fff;
+  --head:'DM Sans',system-ui,sans-serif; --body:'Inter',system-ui,sans-serif;
+  --gutter:clamp(20px,4vw,48px); --r:6px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);color:var(--ink);background:var(--white);line-height:1.6;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--teal);outline-offset:3px}
+h1,h2,h3{font-family:var(--head);font-weight:400;letter-spacing:-.04em;line-height:1.05}
+.wrap{padding-inline:var(--gutter);max-width:1360px;margin-inline:auto}
+
+/* Navigation (shared) */
+.nav{position:fixed;inset:0 0 auto 0;z-index:50;display:flex;align-items:center;justify-content:space-between;
+  padding:12px var(--gutter);background:#FFFFFF;color:var(--navy);transition:box-shadow .3s}
+.nav.solid{box-shadow:0 6px 24px rgba(11,30,61,.08)}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+.brand img{height:122px;width:auto;max-width:none;background:none;border:0;border-radius:0;padding:0}
+.links{display:flex;align-items:center;gap:clamp(18px,2.6vw,40px);font:500 17px var(--head)}
+.links a{color:var(--navy);text-decoration:none;text-underline-offset:6px;transition:color .2s}
+.links a:hover{color:var(--teal-dark)}
+.links a[aria-current]{text-decoration:underline;text-decoration-thickness:2px}
+.links .book{background:var(--teal);color:var(--navy);padding:10px 20px;border-radius:var(--r);letter-spacing:-.02em;text-decoration:none}
+.links .book:hover{background:var(--teal-dark);color:var(--navy)}
+.menu-btn{display:none;background:none;border:0;color:inherit;font:500 17px var(--head);cursor:pointer;padding:8px}
+
+/* Intro */
+.intro{background:var(--paper);padding:clamp(170px,19vw,230px) 0 clamp(40px,6vw,72px)}
+.intro h1{font-size:clamp(2.5rem,6vw,5.2rem);max-width:14ch}
+.intro .lead{margin-top:28px;font-size:18px;color:var(--muted);max-width:60ch}
+.alert-note{margin-top:32px;padding-left:18px;border-left:3px solid var(--teal-dark);max-width:60ch;font-size:16px}
+.alert-note a{text-underline-offset:3px}
+
+/* Layout */
+.faq-layout{display:grid;grid-template-columns:260px minmax(0,1fr);gap:clamp(32px,7vw,110px);align-items:start;padding-block:clamp(40px,6vw,80px) clamp(64px,9vw,120px)}
+.index{position:sticky;top:172px}
+.index ul{list-style:none}
+.index a{display:block;padding:10px 0 10px 16px;border-left:2px solid var(--mist);font:500 17px/1.35 var(--head);letter-spacing:-.02em;color:var(--navy);text-decoration:none;transition:border-color .2s,color .2s}
+.index a:hover{border-left-color:var(--teal);color:var(--teal-dark)}
+
+/* Categories and questions */
+.cat{scroll-margin-top:172px}
+.cat+.cat{margin-top:clamp(48px,6vw,80px)}
+.cat h2{font-size:clamp(1.8rem,3vw,2.6rem);color:var(--navy);margin-bottom:24px}
+details.q{scroll-margin-top:172px;background:var(--paper);border:1px solid transparent;border-radius:var(--r)}
+details.q+details.q{margin-top:8px}
+details.q[open]{background:var(--white);border-color:#CFD8DD;box-shadow:inset 4px 0 0 var(--teal)}
+summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:flex-start;gap:24px;padding:20px 24px;
+  font:500 19px/1.35 var(--head);letter-spacing:-.02em;color:var(--navy);border-radius:var(--r)}
+summary::-webkit-details-marker{display:none}
+summary:hover{color:var(--teal-dark)}
+summary:focus-visible{outline:2px solid var(--navy);outline-offset:2px}
+summary::after{content:"";flex:0 0 14px;height:14px;margin-top:6px;
+  background:linear-gradient(currentColor,currentColor) center/14px 2px no-repeat,linear-gradient(currentColor,currentColor) center/2px 14px no-repeat;
+  transition:background-size .2s}
+details[open]>summary::after{background-size:14px 2px,2px 0}
+.answer{padding:0 24px 24px}
+.answer p{max-width:62ch;font-size:16px;line-height:1.7}
+.answer p+p{margin-top:12px}
+.answer a{text-underline-offset:3px;text-decoration-thickness:1px}
+.answer a:hover{color:var(--teal-dark)}
+.answer a:focus-visible,.alert-note a:focus-visible,.index a:focus-visible{outline-color:var(--navy)}
+
+/* Closing */
+.more{margin-top:clamp(56px,7vw,96px)}
+.more h2{font-size:clamp(1.8rem,3vw,2.6rem);color:var(--navy)}
+.more p{margin-top:16px;color:var(--muted);max-width:56ch}
+.more .actions{display:flex;flex-wrap:wrap;align-items:center;gap:16px 28px;margin-top:28px}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:14px 26px;background:var(--teal);color:var(--navy);border-radius:var(--r);
+  text-decoration:none;font:500 18px var(--head);letter-spacing:-.02em;transition:background .2s}
+.btn:hover{background:var(--navy);color:var(--white)}
+.more .actions a:not(.btn){text-underline-offset:4px}
+
+/* Footer (shared) */
+footer{background:var(--navy);color:rgba(255,255,255,.72);padding-top:clamp(56px,8vw,96px);font-size:15px}
+.foot{display:grid;grid-template-columns:repeat(4,1fr);gap:40px}
+footer h3{font:500 18px var(--head);letter-spacing:-.02em;color:var(--white);margin-bottom:16px}
+footer ul{list-style:none} footer li{margin-bottom:8px}
+footer a{text-decoration:none} footer a:hover{color:var(--teal)}
+footer address{font-style:normal;line-height:1.8}
+.news{display:flex;margin-bottom:24px}
+.news input{flex:1;min-width:0;padding:12px 14px;border:1px solid rgba(255,255,255,.3);border-right:0;border-radius:var(--r) 0 0 var(--r);background:transparent;color:var(--white);font:inherit}
+.news input::placeholder{color:rgba(255,255,255,.5)}
+.news button{padding:12px 18px;border:0;border-radius:0 var(--r) var(--r) 0;background:var(--teal);color:var(--navy);font:500 15px var(--body);cursor:pointer}
+.news button:hover{background:var(--white)}
+.social{display:flex;gap:20px}
+.legal{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;margin-top:64px;padding-block:24px 32px;font-size:14px;color:rgba(255,255,255,.5)}
+
+/* Responsive */
+@media (max-width:1024px){
+  .faq-layout{grid-template-columns:1fr;gap:40px}
+  .index{position:static}
+  .index ul{display:grid;grid-template-columns:1fr 1fr;gap:0 24px}
+  .foot{grid-template-columns:1fr 1fr}
+}
+@media (max-width:760px){
+  .brand img{height:68px}
+  .menu-btn{display:block}
+  .links{position:fixed;inset:0;background:#FFFFFF;flex-direction:column;justify-content:center;gap:28px;font-size:28px;display:none}
+  .links.open{display:flex}
+  .links .book{padding:12px 24px}
+  .menu-btn{position:relative;z-index:60}
+  .intro{padding-top:120px}
+  .cat,details.q{scroll-margin-top:110px}
+  summary{padding:18px 18px;font-size:18px}
+  .answer{padding:0 18px 20px}
+  .foot{grid-template-columns:1fr}
+  .btn{width:100%}
+}
+@media (max-width:560px){.index ul{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <a href="index.html" class="brand">
+    <img src="img/logo4.png" alt="St. Martha Hospital logo" decoding="async">
+  </a>
+  <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="links">Menu</button>
+  <nav class="links" id="links" aria-label="Main">
+    <a href="about.html">About</a>
+    <a href="service.html">Services</a>
+    <a href="programs.html">Programs</a>
+    <a href="blog.html">Blog</a>
+    <a href="appointment.html" class="book">Book Now</a>
+  </nav>
+</header>
+
+<main>
+<div class="intro">
+  <div class="wrap">
+    <h1>Questions before you visit</h1>
+    <p class="lead">Answers to common questions about visiting, booking, payment and working with St. Martha Hospital. If you can’t find what you need, please contact the hospital directly.</p>
+    <p class="alert-note">For a life-threatening emergency, seek immediate help from your local emergency services. <a href="#urgent">Read about urgent care</a>.</p>
+  </div>
+</div>
+
+<div class="wrap faq-layout">
+  <nav class="index" aria-label="FAQ categories">
+    <ul>
+      <li><a href="#general">General information</a></li>
+      <li><a href="#appointments">Appointments and patient services</a></li>
+      <li><a href="#insurance">Insurance and payments</a></li>
+      <li><a href="#urgent">Urgent care and hospital visits</a></li>
+      <li><a href="#careers">Careers and locum opportunities</a></li>
+      <li><a href="#enquiries">General enquiries</a></li>
+    </ul>
+  </nav>
+
+  <div>
+    <section class="cat" id="general" aria-labelledby="h-general">
+      <h2 id="h-general">General information</h2>
+      <details class="q" id="q-location">
+        <summary>Where is St. Martha Hospital located?</summary>
+        <div class="answer"><p>St. Martha Hospital is in Kiminini, Trans Nzoia County, Kenya. For directions or help finding the hospital, please use the details on our <a href="contact.html">Contact page</a>.</p></div>
+      </details>
+      <details class="q" id="q-hours">
+        <summary>What are the hospital’s operating hours?</summary>
+        <div class="answer"><p>Regular operating hours are Monday to Friday, 8:00 AM to 5:00 PM, and Saturday and Sunday, 8:00 AM to 4:00 PM. For urgent enquiries outside these hours, please contact the hospital directly.</p></div>
+      </details>
+      <details class="q" id="q-contact">
+        <summary>How can I contact St. Martha Hospital?</summary>
+        <div class="answer"><p>You can reach the hospital by phone or email. Our <a href="contact.html">Contact page</a> has the current details and other ways to get in touch.</p></div>
+      </details>
+      <details class="q" id="q-book-first">
+        <summary>Do I need to book an appointment before visiting?</summary>
+        <div class="answer"><p>You can request an appointment through our <a href="appointment.html">Book Now page</a>. If you’re not sure whether the service you need requires an appointment, please contact the hospital for guidance.</p></div>
+      </details>
+    </section>
+
+    <section class="cat" id="appointments" aria-labelledby="h-appointments">
+      <h2 id="h-appointments">Appointments and patient services</h2>
+      <details class="q" id="q-how-book">
+        <summary>How can I book an appointment?</summary>
+        <div class="answer"><p>Submit an appointment request through the <a href="appointment.html">Book Now page</a>. Please give your contact details and your preferred appointment information.</p><p>The hospital will follow up with you about your request. A request is not a confirmed appointment until the hospital has done so.</p></div>
+      </details>
+      <details class="q" id="q-bring">
+        <summary>What should I bring when visiting the hospital?</summary>
+        <div class="answer"><p>If you have them, bring your identification, relevant medical records, prescriptions, previous test results and any insurance information you may need. If you are visiting for a specific service, contact the hospital to confirm whether you need any other documents.</p></div>
+      </details>
+      <details class="q" id="q-weekends">
+        <summary>Can I visit the hospital on weekends?</summary>
+        <div class="answer"><p>Yes. Regular operating hours include Saturday and Sunday, 8:00 AM to 4:00 PM. If you need to confirm that a particular service is available, please contact the hospital.</p></div>
+      </details>
+      <details class="q" id="q-records">
+        <summary>Can I request my medical records or test results?</summary>
+        <div class="answer"><p>Please contact the hospital directly to ask about accessing your medical records or test results. The hospital can guide you through the process.</p></div>
+      </details>
+    </section>
+
+    <section class="cat" id="insurance" aria-labelledby="h-insurance">
+      <h2 id="h-insurance">Insurance and payments</h2>
+      <details class="q" id="q-insurance">
+        <summary>Does St. Martha Hospital accept health insurance?</summary>
+        <div class="answer"><p>Yes. St. Martha Hospital accepts the Social Health Authority (SHA). If you have questions about your coverage, your eligibility or the services your plan covers, please contact the hospital before your visit.</p></div>
+      </details>
+      <details class="q" id="q-cost">
+        <summary>How can I find out the cost of a consultation or treatment?</summary>
+        <div class="answer"><p>Costs depend on the service or treatment you need. Please contact the hospital directly for information about applicable charges.</p></div>
+      </details>
+    </section>
+
+    <section class="cat" id="urgent" aria-labelledby="h-urgent">
+      <h2 id="h-urgent">Urgent care and hospital visits</h2>
+      <details class="q" id="q-urgent">
+        <summary>What should I do if I need urgent medical attention?</summary>
+        <div class="answer"><p>Contact the hospital directly for guidance on what to do next. For a life-threatening emergency, seek immediate help from your local emergency services.</p></div>
+      </details>
+      <details class="q" id="q-ambulance">
+        <summary>Does the hospital have an ambulance service?</summary>
+        <div class="answer"><p>Please contact the hospital directly to ask about available transport or ambulance arrangements.</p></div>
+      </details>
+    </section>
+
+    <section class="cat" id="careers" aria-labelledby="h-careers">
+      <h2 id="h-careers">Careers and locum opportunities</h2>
+      <details class="q" id="q-vacancies">
+        <summary>Are there any current job vacancies at St. Martha Hospital?</summary>
+        <div class="answer"><p>There are currently no advertised vacancies. We encourage interested applicants to check our <a href="careers.html">Careers page</a> regularly and to follow <a href="https://www.linkedin.com/company/st-martha-hospital-kiminini" target="_blank" rel="noopener">St. Martha Hospital on LinkedIn</a> for announcements about future opportunities.</p></div>
+      </details>
+      <details class="q" id="q-locum">
+        <summary>Can doctors and nurses apply for locum opportunities?</summary>
+        <div class="answer"><p>Yes. Doctors and nurses who want to provide locum services can submit their professional documents in person at the hospital office. The hospital will review submissions and contact suitable professionals when locum opportunities arise.</p><p>Submitting documents does not guarantee an immediate assignment.</p></div>
+      </details>
+    </section>
+
+    <section class="cat" id="enquiries" aria-labelledby="h-enquiries">
+      <h2 id="h-enquiries">General enquiries</h2>
+      <details class="q" id="q-services">
+        <summary>Where can I find more information about the hospital’s services?</summary>
+        <div class="answer"><p>Visit our <a href="service.html">Services page</a> to learn more. If you need information about a specific service, please contact the hospital directly to confirm that it is available.</p></div>
+      </details>
+    </section>
+
+    <div class="more">
+      <h2>Can’t find your answer?</h2>
+      <p>Contact the hospital directly and ask your question.</p>
+      <div class="actions">
+        <a href="contact.html" class="btn">Contact us</a>
+        <a href="appointment.html">Request an appointment</a>
+      </div>
+    </div>
+  </div>
+</div>
+</main>
+
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <h3>Get in touch</h3>
+        <address>P.O. BOX 965 Kitale<br>Kiminini, Trans Nzoia<br>
+          <a href="mailto:stmarthasmedicare@gmail.com">stmarthasmedicare@gmail.com</a><br>
+          <a href="mailto:stmarthakinganatiba@gmail.com">stmarthakinganatiba@gmail.com</a><br>
+          <a href="tel:+254731948998">+254 731 948 998</a></address>
+      </div>
+      <div>
+        <h3>Quick links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li><li><a href="about.html">About us</a></li>
+          <li><a href="service.html">Our services</a></li><li><a href="blog.html">Blog</a></li>
+          <li><a href="careers.html">Careers</a></li><li><a href="contact.html">Contact us</a></li>
+          <li><a href="faq.html">FAQs</a></li>
+          <li><a href="terms.html">Terms of Use</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Services</h3>
+        <ul>
+          <li><a href="service.html">General medicine</a></li><li><a href="service.html">Pediatrics</a></li>
+          <li><a href="service.html">Maternal health</a></li><li><a href="service.html">Laboratory</a></li>
+          <li><a href="service.html">Emergency care</a></li><li><a href="service.html">Pharmacy</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Newsletter</h3>
+        <form class="news" onsubmit="return false">
+          <input type="email" placeholder="Your email address" aria-label="Email address">
+          <button type="submit">Sign up</button>
+        </form>
+        <div class="social" style="display:flex; align-items:center; gap:16px; margin-top:14px;">
+          <a href="https://www.facebook.com/stmarthaknt/" target="_blank" rel="noopener noreferrer" aria-label="Facebook" title="Facebook">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 21v-8h2.7l.4-3.1h-3.1V8c0-.9.3-1.5 1.6-1.5h1.6V3.7c-.3 0-1.3-.1-2.4-.1-2.4 0-4.1 1.5-4.1 4.2v2.1H7.5V13h2.7v8h3.3z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/company/st-martha-hospital-kiminini" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M5.2 3.5a1.9 1.9 0 1 0 0 3.8 1.9 1.9 0 0 0 0-3.8zM3.6 9h3.2v11H3.6zM9 9h3.1v1.5h.1A3.4 3.4 0 0 1 15.3 8c3.3 0 3.9 2.2 3.9 5v7h-3.3v-6.2c0-1.5 0-3.3-2-3.3s-2.3 1.6-2.3 3.2V20H9z"/></svg>
+          </a>
+          <a href="https://youtube.com/@stmarthaknt?si=yd3JQ_eJIdtj_wxj" target="_blank" rel="noopener noreferrer" aria-label="YouTube" title="YouTube">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4l6.2 3.6z"/></svg>
+          </a>
+          <a href="https://www.instagram.com/st.marthahealthcareknt/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="legal">
+      <span>&copy; 2025 St. Martha Hospital. All rights reserved.</span>
+      <span>Kinga na Tiba — Kiminini, Trans Nzoia</span>
+      <a href="#">Back to top</a>
+    </div>
+  </div>
+</footer>
+
+
+<script>
+/* Nav: solid after scroll, mobile menu (same as the rest of the site) */
+const nav = document.getElementById('nav'), links = document.getElementById('links'), menuBtn = document.getElementById('menuBtn');
+const onScroll = () => nav.classList.toggle('solid', scrollY > 40);
+addEventListener('scroll', onScroll, {passive:true}); onScroll();
+function setMenu(open){ links.classList.toggle('open', open); menuBtn.setAttribute('aria-expanded', open); menuBtn.textContent = open ? 'Close' : 'Menu'; }
+menuBtn.addEventListener('click', () => setMenu(!links.classList.contains('open')));
+links.addEventListener('click', e => { if (e.target.closest('a')) setMenu(false); });
+addEventListener('keydown', e => { if (e.key === 'Escape') setMenu(false); });
+
+/* Open a question when its link (e.g. faq.html#q-insurance) is used */
+function openFromHash(){
+  const el = location.hash && document.getElementById(location.hash.slice(1));
+  if (el && el.matches('details.q')) { el.open = true; el.scrollIntoView(); }
+}
+addEventListener('hashchange', openFromHash); openFromHash();
+</script>
+</body>
+</html>

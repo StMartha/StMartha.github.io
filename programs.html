@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Community Health Programmes &amp; Public Health Campaigns | St. Martha Hospital Kiminini</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Community health programmes and public health campaigns proposed by St. Martha Hospital in Kiminini, Trans Nzoia: outreach, immunisation, maternal and child wellness, nutrition, mental health and health education.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#FFFFFF">
+<!-- CANONICAL and og:url/og:image: add once the official domain is confirmed, as on index.html. -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="St. Martha Hospital">
+<meta property="og:title" content="Community Health Programmes &amp; Public Health Campaigns | St. Martha Hospital">
+<meta property="og:description" content="Health education, prevention and community wellbeing: the programmes and campaigns St. Martha Hospital proposes for Kiminini and Trans Nzoia.">
+<meta property="og:locale" content="en_KE">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Hospital",
+  "name": "St. Martha Hospital",
+  "slogan": "Kinga na Tiba",
+  "description": "Compassionate, expert healthcare in Kiminini, Trans Nzoia, open 24 hours a day, 7 days a week.",
+  "telephone": "+254731948998",
+  "email": "stmarthasmedicare@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "postOfficeBoxNumber": "965",
+    "addressLocality": "Kitale",
+    "streetAddress": "Kiminini",
+    "addressRegion": "Trans Nzoia",
+    "addressCountry": "KE"
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "opens": "00:00",
+    "closes": "23:59"
+  },
+  "sameAs": [
+    "https://www.facebook.com/stmarthaknt/",
+    "https://www.linkedin.com/company/st-martha-hospital-kiminini",
+    "https://www.youtube.com/@stmarthaknt"
+  ]
+}
+</script>
+<link rel="shortcut icon" href="img/kli.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#0B1E3D; --navy-2:#132B52; --teal:#13C5DD; --teal-dark:#0EA8BF;
+  --mist:#E9EEF0; --paper:#F8F7F3; --ink:#1B2A3D; --muted:#5C6B7D; --white:#fff;
+  --head:'DM Sans',system-ui,sans-serif; --body:'Inter',system-ui,sans-serif;
+  --gutter:clamp(20px,4vw,48px); --r:6px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);color:var(--ink);background:var(--white);line-height:1.6;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--teal);outline-offset:3px}
+h1,h2,h3{font-family:var(--head);font-weight:400;letter-spacing:-.04em;line-height:1.05}
+.wrap{padding-inline:var(--gutter);max-width:1360px;margin-inline:auto}
+
+/* Navigation */
+.nav{position:fixed;inset:0 0 auto 0;z-index:50;display:flex;align-items:center;justify-content:space-between;
+  padding:12px var(--gutter);background:#FFFFFF;color:var(--navy);transition:box-shadow .3s}
+.nav.solid{box-shadow:0 6px 24px rgba(11,30,61,.08)}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+.brand img{height:122px;width:auto;max-width:none;background:none;border:0;border-radius:0;padding:0}
+.links{display:flex;align-items:center;gap:clamp(18px,2.6vw,40px);font:500 17px var(--head)}
+.links a{color:var(--navy);text-decoration:none;text-underline-offset:6px;transition:color .2s}
+.links a:hover{color:var(--teal-dark)}
+.links a[aria-current]{text-decoration:underline;text-decoration-thickness:2px}
+.links .book{background:var(--teal);color:var(--navy);padding:10px 20px;border-radius:var(--r);letter-spacing:-.02em;text-decoration:none}
+.links .book:hover{background:var(--teal-dark);color:var(--navy)}
+.menu-btn{display:none;background:none;border:0;color:inherit;font:500 17px var(--head);cursor:pointer;padding:8px}
+
+
+/* Opening */
+.open{padding-top:clamp(170px,18vw,230px);padding-bottom:clamp(56px,8vw,110px)}
+.open-grid{display:grid;grid-template-columns:7fr 4fr;gap:clamp(32px,6vw,96px);align-items:end}
+.open h1{font-size:clamp(2.6rem,6.6vw,6.4rem)}
+.open-img img,.open-img .ph{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:var(--r);background:var(--mist)}
+/* Programmes */
+.progs{background:var(--paper);padding-block:clamp(72px,10vw,140px)}
+.progs-head{max-width:60ch}
+.progs-head h2{font-size:clamp(2.6rem,5.6vw,5rem)}
+.progs-head .kicker{font:500 clamp(1.2rem,1.8vw,1.5rem) var(--head);letter-spacing:-.03em;color:var(--navy-2);margin-top:20px}
+.progs-head .lead{margin-top:12px}
+.prog{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,5vw,80px);align-items:center;margin-top:clamp(72px,10vw,150px)}
+.progs-head+.prog{margin-top:clamp(56px,8vw,110px)}
+.prog.f{grid-template-columns:7fr 5fr}.prog.r{grid-template-columns:5fr 7fr}.prog.r .media{order:2}
+.prog.type{grid-template-columns:7fr 4fr}.prog.type .media{order:2}
+.prog.type h3{font-size:clamp(3rem,8vw,7.5rem)}
+.duo{display:grid;grid-template-columns:5fr 4fr;gap:clamp(28px,6vw,96px);align-items:start;margin-top:clamp(72px,10vw,150px)}
+.duo.rev{grid-template-columns:4fr 5fr}
+.duo>:last-child{margin-top:clamp(0px,9vw,150px)}
+.media img,.ph{width:100%;object-fit:cover;border-radius:var(--r);background:var(--mist)}
+.media.tall>*{aspect-ratio:4/5}.media.wide>*{aspect-ratio:3/2}.media.sq>*{aspect-ratio:1/1}
+.ph{display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:14px;text-align:center;padding:16px}
+.ptxt{max-width:52ch}.duo .ptxt{margin-top:22px}
+.num{display:block;font:400 15px var(--head);color:var(--muted);margin-bottom:10px}
+.prog h3,.prog-s h3{font-size:clamp(2rem,4.2vw,3.6rem)}
+.sub{font:500 19px var(--head);letter-spacing:-.02em;color:var(--navy-2);margin:10px 0 16px}
+.ptxt p:not(.sub):not(.status){color:var(--muted);font-size:17px}
+.status{margin-top:16px;font-size:14px;font-style:italic;color:var(--muted)}
+/* Campaigns */
+.camps{background:var(--navy);color:var(--white);padding-block:clamp(72px,9vw,128px)}
+.camps-top{display:flex;align-items:flex-end;justify-content:space-between;gap:clamp(24px,4vw,56px)}
+.camps-head{max-width:60ch}
+.camps-head h2{font-size:clamp(2.2rem,4vw,3.4rem)}
+.camps-head .kicker{font:500 clamp(1.1rem,1.6vw,1.35rem) var(--head);letter-spacing:-.03em;color:var(--teal);margin-top:16px}
+.camps-head .lead{margin-top:12px;color:rgba(255,255,255,.72)}
+.car-ctl{display:flex;gap:12px;flex-shrink:0}
+.car-btn{width:52px;height:52px;display:grid;place-items:center;border-radius:50%;border:1.5px solid rgba(255,255,255,.45);
+  background:transparent;color:var(--white);cursor:pointer;transition:background .2s,border-color .2s,color .2s}
+.car-btn svg{width:20px;height:20px}
+.car-btn:hover:not(:disabled){background:var(--teal);border-color:var(--teal);color:var(--navy)}
+.car-btn:disabled{opacity:.3;cursor:default}
+.car{margin-top:clamp(40px,5vw,64px)}
+.car-track{--gap:clamp(16px,2.4vw,32px);display:flex;gap:var(--gap);overflow-x:auto;scroll-snap-type:x mandatory;
+  scroll-padding-inline:4px;overscroll-behavior-x:contain;scrollbar-width:none;-webkit-overflow-scrolling:touch;
+  padding:4px;margin-inline:-4px}
+.car-track::-webkit-scrollbar{display:none}
+.camp{flex:0 0 calc((100% - 2 * var(--gap)) / 3);scroll-snap-align:start;display:flex;flex-direction:column;
+  padding:clamp(28px,3vw,40px);background:var(--navy-2);border:1px solid rgba(255,255,255,.12);border-radius:var(--r)}
+.camp h3{font-size:clamp(1.9rem,2.6vw,2.5rem);letter-spacing:-.04em}
+.camp .purpose{font:500 18px var(--head);letter-spacing:-.02em;color:var(--teal);margin:14px 0 16px}
+.camp p{color:rgba(255,255,255,.78);font-size:16px}
+.camp .note{margin-top:12px;font-weight:500;color:var(--white)}
+.camp .status{margin-top:auto;padding-top:20px;font-size:14px;font-style:italic;color:rgba(255,255,255,.65)}
+/* Closing */
+.closing{padding-block:clamp(72px,9vw,120px)}
+.close-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,6vw,96px);align-items:end}
+.close-grid p{color:var(--muted);font-size:17px;max-width:54ch}
+.close-grid .btn{margin-top:32px}
+.btn{display:inline-flex;align-items:center;justify-content:space-between;gap:36px;min-width:260px;padding:18px 24px;
+  background:var(--teal);color:var(--navy);border-radius:var(--r);text-decoration:none;font:500 19px var(--head);letter-spacing:-.02em;transition:background .2s}
+.btn:hover{background:var(--white)}
+.btn svg{width:18px;height:18px;transition:transform .25s}
+.btn:hover svg{transform:translate(2px,-2px)}
+
+/* Footer */
+footer{background:var(--navy);color:rgba(255,255,255,.72);padding-top:clamp(56px,8vw,96px);font-size:15px}
+.foot{display:grid;grid-template-columns:repeat(4,1fr);gap:40px}
+footer h3{font:500 18px var(--head);letter-spacing:-.02em;color:var(--white);margin-bottom:16px}
+footer ul{list-style:none} footer li{margin-bottom:8px}
+footer a{text-decoration:none} footer a:hover{color:var(--teal)}
+footer address{font-style:normal;line-height:1.8}
+.social{display:flex;gap:20px}
+.legal{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;margin-top:64px;padding-block:24px 32px;font-size:14px;color:rgba(255,255,255,.5)}
+
+
+/* Responsive */
+@media (max-width:1024px){
+  .open-grid,.close-grid{grid-template-columns:1fr}
+  .open-img{max-width:420px}
+  .camp{flex-basis:calc((100% - var(--gap)) / 2)}
+  .foot{grid-template-columns:1fr 1fr}
+}
+@media (max-width:760px){
+  .brand img{height:68px}
+  .menu-btn{display:block;position:relative;z-index:60}
+  .links{position:fixed;inset:0;background:#FFFFFF;flex-direction:column;justify-content:center;gap:28px;font-size:28px;display:none}
+  .links.open{display:flex}
+  .links .book{padding:12px 24px}
+  .open{padding-top:110px}
+  .prog,.prog.f,.prog.r,.prog.type,.duo,.duo.rev{grid-template-columns:1fr}
+  .prog.r .media,.prog.type .media{order:0}
+  .duo{gap:72px}
+  .camps-top{flex-direction:column;align-items:flex-start}
+  .camp{flex-basis:84%}
+  .car-btn{width:48px;height:48px}
+  .foot{grid-template-columns:1fr}.btn{width:100%}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <a href="index.html" class="brand">
+    <img src="img/logo4.png" alt="St. Martha Hospital logo" decoding="async">
+  </a>
+  <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="links">Menu</button>
+  <nav class="links" id="links" aria-label="Main">
+    <a href="about.html">About</a>
+    <a href="service.html">Services</a>
+    <a href="programs.html" aria-current="page">Programs</a>
+    <a href="blog.html">Blog</a>
+    <a href="appointment.html" class="book">Book Now</a>
+  </nav>
+</header>
+
+<main>
+
+<section class="open">
+  <div class="wrap">
+    <div class="open-grid">
+      <div>
+        <h1>Good health is built long before anyone reaches the hospital.</h1>
+        <p class="lead" style="margin-top:32px">St. Martha Hospital’s community health work reaches into homes, schools and neighbourhoods across Kiminini and Trans Nzoia, through education, prevention and public awareness alongside everyday clinical care.</p>
+      </div>
+      <div class="open-img">
+        <img src="img/communityhealthw.jpg" alt="St. Martha Hospital community health outreach" style="width:100%; height:100%; object-fit:cover;">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="progs" id="programmes" aria-labelledby="progs-title">
+  <div class="wrap">
+    <div class="progs-head">
+      <h2 id="progs-title">Programs</h2>
+      <p class="kicker">Nine programmes, one community health commitment</p>
+      <p class="lead">Each programme meets people where they live, learn and raise their families. Together they describe how St. Martha proposes to practise preventive healthcare beyond the consulting room.</p>
+   
+</div>
+
+<article class="prog f "><div class="media tall"><img src="img/tt6.png" alt="Community outreach photograph from the St. Martha project files" loading="lazy" decoding="async"></div><div class="ptxt"><span class="num">01</span><h3>HealthConnect</h3><p class="sub">Community Health Outreach</p><p>Takes healthcare closer to the people it serves through medical camps, community health check-ups, health education and outreach activities.</p><p class="status">Proposed programme, awaiting hospital approval.</p></div></article>
+<article class="prog r "><div class="media wide"><img src="img/Vaccination.jpg" alt="Vaccination photograph from the St. Martha project files" loading="lazy" decoding="async"></div><div class="ptxt"><span class="num">02</span><h3>Kinga Kwanza</h3><p class="sub">Immunisation for All</p><p>Focuses on vaccination, immunisation awareness and organised vaccination activities for children and other eligible groups.</p><p class="status">Proposed programme, awaiting hospital approval.</p></div></article>
+<div class="duo "><article class="prog-s"><div class="media tall"><img src="img/tt7.png" alt="Maternal and child health photograph from the St. Martha project files" loading="lazy" decoding="async"></div><div class="ptxt"><span class="num">03</span><h3>Mama na Mtoto</h3><p class="sub">Maternal & Child Wellness</p><p>Maternal health education, child health awareness, and antenatal and postnatal education that support healthy beginnings.</p><p class="status">Proposed programme, awaiting hospital approval.</p></div></article><article class="prog-s"><div class="media sq"><img src="img/tt8.png" alt="Nutrition education photograph from the St. Martha project files" loading="lazy" decoding="async"></div><div class="ptxt"><span class="num">04</span><h3>Nourish for Life</h3><p class="sub">Nutrition & Healthy Living</p><p>Nutrition education, healthy eating awareness, family nutrition and healthier lifestyle choices.</p><p class="status">Proposed programme, awaiting hospital approval.</p></div></article></div>
+<article class="prog type "><div class="media wide"><img src="img/tt9.png" alt="Mental health awareness photograph from the St. Martha project files" loading="lazy" decoding="async"></div><div class="ptxt"><span class="num">05</span><h3>Mind Matters</h3><p class="sub">Mental Health & Wellbeing</p><p>Mental health awareness and emotional wellbeing education that reduces stigma and encourages people to seek appropriate help.</p><p class="status">Proposed programme, awaiting hospital approval.</p></div></article>
+<article class="prog f "><div class="media sq"><img src="img/Senior%20HS.jpg" alt="Older adult wellness photograph from the St. Martha project files" loading="lazy" decoding="async"></div><div class="ptxt"><span class="num">06</span><h3>AgeWell</h3><p class="sub">Healthy Ageing Initiative</p><p>Health education, preventive healthcare awareness and wellness activities for older adults.</p><p class="status">Proposed programme, awaiting hospital approval.</p></div></article>
+<div class="duo rev"><article class="prog-s"><div class="media tall"><img src="img/tt12.png" alt="School health photograph from the St. Martha project files" loading="lazy" decoding="async"></div><div class="ptxt"><span class="num">07</span><h3>SchoolHealth</h3><p class="sub">Healthy Schools Initiative</p><p>School visits, student health education, hygiene awareness, age-appropriate health talks and preventive health education.</p><p class="status">Proposed programme, awaiting hospital approval.</p></div></article><article class="prog-s"><div class="media sq"><img src="img/tt10.png" alt="Family health photograph from the St. Martha project files" loading="lazy" decoding="async"></div><div class="ptxt"><span class="num">08</span><h3>Family First</h3><p class="sub">Family Health Education</p><p>Health education for families and caregivers, preventive health awareness and informed healthcare decisions.</p><p class="status">Proposed programme, awaiting hospital approval.</p></div></article></div>
+<article class="prog r "><div class="media wide"><img src="img/tt11.png" alt="Community health workshop photograph from the St. Martha project files" loading="lazy" decoding="async"></div><div class="ptxt"><span class="num">09</span><h3>HealthWise</h3><p class="sub">Community Health Learning</p><p>Structured health workshops, medical education sessions and practical health awareness activities for community members.</p><p class="status">Proposed programme, awaiting hospital approval.</p></div></article>
+</div>
+
+</section>
+
+<section class="camps" id="campaigns" aria-labelledby="camps-title">
+  <div class="wrap">
+    <div class="camps-top">
+      <div class="camps-head">
+        <h2 id="camps-title">Campaigns</h2>
+        <p class="kicker">Five campaigns that ask the public to act</p>
+        <p class="lead">Where programmes run steadily, campaigns concentrate attention on a single message. These are the causes St. Martha proposes to champion.</p>
+      </div>
+      <div class="car-ctl">
+        <button type="button" class="car-btn" id="carPrev" aria-label="Previous campaigns" aria-controls="carTrack"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12.5 4.5 7 10l5.5 5.5"/></svg></button>
+        <button type="button" class="car-btn" id="carNext" aria-label="Next campaigns" aria-controls="carTrack"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.5 4.5 13 10l-5.5 5.5"/></svg></button>
+      </div>
+    </div>
+    <div class="car">
+      <div class="car-track" id="carTrack" role="region" aria-label="Campaigns carousel" tabindex="0">
+        <article class="camp"><h3>Give Life</h3><p class="purpose">Blood Donation Campaign</p><p>Encouraging voluntary blood donation, raising awareness about blood shortages and mobilising eligible donors through organised donation activities.</p><p class="status">Proposed campaign, awaiting hospital approval. Dates to be confirmed.</p></article>
+        <article class="camp"><h3>Know. Check. Act.</h3><p class="purpose">Cancer Awareness Campaign</p><p>Promoting awareness of breast and cervical cancer, early detection, and the importance of seeking appropriate screening and medical advice.</p><p class="note">This campaign shares awareness information only. Screening services at St. Martha are subject to confirmation.</p><p class="status">Proposed campaign, awaiting hospital approval. Dates to be confirmed.</p></article>
+        <article class="camp"><h3>Know Your Numbers</h3><p class="purpose">Health Awareness Campaign</p><p>Encouraging people to understand important health indicators such as blood pressure, weight and BMI, through health education and available clinical checks.</p><p class="status">Proposed campaign, awaiting hospital approval. Dates to be confirmed.</p></article>
+        <article class="camp"><h3>Healthy Futures</h3><p class="purpose">School Health Awareness Campaign</p><p>Promoting health awareness among school-going children through school visits, hygiene education, nutrition awareness, vaccination education and age-appropriate health talks.</p><p class="status">Proposed campaign, awaiting hospital approval. Dates to be confirmed.</p></article>
+        <article class="camp"><h3>Break the Silence</h3><p class="purpose">Mental Health Awareness Campaign</p><p>Encouraging open conversations about mental health, challenging stigma, and educating communities about appropriate support and help-seeking.</p><p class="status">Proposed campaign, awaiting hospital approval. Dates to be confirmed.</p></article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="closing">
+  <div class="wrap close-grid">
+    <div>
+      <h2 class="title">Care that continues after the clinic visit</h2>
+    </div>
+    <div>
+      <p>The programmes and campaigns on this page are proposals under review by St. Martha Hospital. Dates, activities and locations will be shared once they are confirmed.</p>
+      <p style="margin-top:16px">In the meantime, our team can answer questions about community health work or about the care we provide today.</p>
+      <a href="contact.html" class="btn"><span>Contact the hospital</span>
+        <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M5 15 15 5M7 5h8v8"/></svg></a>
+    </div>
+  </div>
+</section>
+</main>
+
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <h3>Get in touch</h3>
+        <address>P.O. BOX 965 Kitale<br>Kiminini, Trans Nzoia<br>
+          <a href="mailto:stmarthasmedicare@gmail.com">stmarthasmedicare@gmail.com</a><br>
+          <a href="tel:+254731948998">+254 731 948 998</a></address>
+      </div>
+      <div>
+        <h3>Quick links</h3>
+        <ul><li><a href="index.html">Home</a></li><li><a href="about.html">About us</a></li><li><a href="service.html">Our services</a></li><li><a href="blog.html">Blog</a></li><li><a href="contact.html">Contact us</a></li>
+          <li><a href="faq.html">FAQs</a></li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="terms.html">Terms of Use</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Services</h3>
+        <ul><li><a href="service.html">General medicine</a></li><li><a href="service.html">Pediatrics</a></li><li><a href="service.html">Maternal health</a></li><li><a href="service.html">Laboratory</a></li><li><a href="service.html">Emergency care</a></li><li><a href="service.html">Pharmacy</a></li></ul>
+      </div>
+      <div>
+        <h3>Follow us</h3>
+        <div class="social" style="display:flex; align-items:center; gap:16px; margin-top:14px;">
+          <a href="https://www.facebook.com/stmarthaknt/" target="_blank" rel="noopener noreferrer" aria-label="Facebook" title="Facebook">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 21v-8h2.7l.4-3.1h-3.1V8c0-.9.3-1.5 1.6-1.5h1.6V3.7c-.3 0-1.3-.1-2.4-.1-2.4 0-4.1 1.5-4.1 4.2v2.1H7.5V13h2.7v8h3.3z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/company/st-martha-hospital-kiminini" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M5.2 3.5a1.9 1.9 0 1 0 0 3.8 1.9 1.9 0 0 0 0-3.8zM3.6 9h3.2v11H3.6zM9 9h3.1v1.5h.1A3.4 3.4 0 0 1 15.3 8c3.3 0 3.9 2.2 3.9 5v7h-3.3v-6.2c0-1.5 0-3.3-2-3.3s-2.3 1.6-2.3 3.2V20H9z"/></svg>
+          </a>
+          <a href="https://www.youtube.com/@stmarthaknt" target="_blank" rel="noopener noreferrer" aria-label="YouTube" title="YouTube">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4l6.2 3.6z"/></svg>
+          </a>
+          <a href="https://www.instagram.com/st.marthahealthcareknt/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="legal">
+      <span>&copy; 2025 St. Martha Hospital. All rights reserved.</span>
+      <span>Kinga na Tiba — Kiminini, Trans Nzoia</span>
+      <a href="#">Back to top</a>
+    </div>
+  </div>
+</footer>
+
+
+<script>
+(function(){
+  var nav=document.getElementById('nav'),btn=document.getElementById('menuBtn'),links=document.getElementById('links');
+  function onScroll(){nav.classList.toggle('solid',window.scrollY>10)}
+  onScroll();window.addEventListener('scroll',onScroll,{passive:true});
+  btn.addEventListener('click',function(){
+    var open=links.classList.toggle('open');btn.setAttribute('aria-expanded',open);btn.textContent=open?'Close':'Menu';
+  });
+
+  var track=document.getElementById('carTrack'),prev=document.getElementById('carPrev'),next=document.getElementById('carNext');
+  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)');
+  function step(){
+    var card=track.firstElementChild;
+    return card.getBoundingClientRect().width+(parseFloat(getComputedStyle(track).columnGap)||0);
+  }
+  function update(){
+    prev.disabled=track.scrollLeft<=2;
+    next.disabled=track.scrollLeft+track.clientWidth>=track.scrollWidth-2;
+  }
+  function go(dir){track.scrollBy({left:dir*step(),behavior:reduce.matches?'auto':'smooth'})}
+  prev.addEventListener('click',function(){go(-1)});
+  next.addEventListener('click',function(){go(1)});
+  track.addEventListener('keydown',function(e){
+    if(e.key==='ArrowRight'){e.preventDefault();go(1)}
+    if(e.key==='ArrowLeft'){e.preventDefault();go(-1)}
+  });
+  track.addEventListener('scroll',update,{passive:true});
+  window.addEventListener('resize',update);
+  update();
+})();
+</script>
+</body>
+</html>
